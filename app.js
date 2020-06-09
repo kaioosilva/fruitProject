@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-mongoose.connect('mongodb+srv://kaio:KaioIreland17@cluster0-5xqr3.mongodb.net/fruitDB?retryWrites=true&w=majority', {
+mongoose.connect('URL', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
